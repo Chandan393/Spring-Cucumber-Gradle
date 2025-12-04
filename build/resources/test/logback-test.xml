@@ -1,0 +1,36 @@
+<configuration>
+
+    <!-- Console logging -->
+    <!--    This defines an appender, which tells Logback where to output logs.-->
+    <!--    Here, logs go to the console (terminal / IntelliJ Run Window).-->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %-5level [%thread] %logger{36} - %msg%n</pattern>
+
+    <!--  e.g : 12:45:10.123 INFO  [main] com.example.demo.CalculatorService - Adding numbers...-->
+        </encoder>
+    </appender>
+
+    <!-- Root logger -->
+    <!-- The root logger configures the default logging level for the entire application (INFO)-->
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+    </root>
+
+    <!-- Enable Spring & Cucumber debugging -->
+    <!-- Controls how much of Spring Boot internal logs you want to see. INFO → minimal, clean logs -->
+    <logger name="org.springframework" level="INFO"/>
+    <!-- Controls logs produced by Cucumber -->
+
+    <!-- INFO level shows:-->
+
+    <!-- Scenario name-->
+
+    <!-- Step execution-->
+
+    <!-- Results-->
+    <logger name="io.cucumber" level="INFO"/>
+    <!-- Application Logging: Enables more detailed (DEBUG) logs for your code only-->
+    <logger name="com.example.demo" level="DEBUG"/>
+
+</configuration>

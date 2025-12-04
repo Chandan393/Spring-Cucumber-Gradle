@@ -1,0 +1,46 @@
+plugins {
+    id 'java'  // Enables Java compilation and testing support
+    id 'org.springframework.boot' version '3.2.1' // Provides Spring Boot features, auto-configuration, packaging, run tasks
+    id 'io.spring.dependency-management' version '1.1.4' // Ensures correct and consistent versions for Spring dependencies
+}
+
+//Project Metadata
+group = 'com.example' //Project Namespace
+version = '1.0.0'
+sourceCompatibility = '17'
+
+repositories {
+    mavenCentral()  //This tells Gradle to download dependencies from Maven Central
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter'
+
+    // --- Cucumber ---
+    // Supports writing step definitions in Java (@Given, @When, @Then)
+    testImplementation 'io.cucumber:cucumber-java:7.15.0'
+    // Runs Cucumber using JUnit 5
+    testImplementation 'io.cucumber:cucumber-junit-platform-engine:7.15.0'
+    //Integrates Cucumber with Spring Boot, enabling @SpringBootTest in steps
+    testImplementation 'io.cucumber:cucumber-spring:7.15.0'
+
+    // --- JUnit Platform Suite API (required for @Suite) ---
+    testImplementation 'org.junit.platform:junit-platform-suite:1.10.2'
+
+    // --- Spring Boot Test ---
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    // Assertions
+    testImplementation 'org.assertj:assertj-core:3.25.3'
+}
+
+//Tells Gradle to run tests using JUnit 5
+//Required because Cucumber is being run via the JUnit Platform Engine
+test {
+    useJUnitPlatform()
+}
+
+//Explanation
+//
+//This Gradle file configures a Spring Boot project that uses Cucumber for BDD testing,
+//JUnit Platform Suite for running tests, and AssertJ for assertions

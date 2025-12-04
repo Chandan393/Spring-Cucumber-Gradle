@@ -1,0 +1,222 @@
+®15:43:45.006 INFO  [Test worker] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.stepdefs.CalculatorSteps]: CalculatorSteps does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+È15:43:45.034 INFO  [Test worker] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.stepdefs.CalculatorSteps
+
+(  .   ____          _            __ _ _
+) /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+*( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
++ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+*  '  |____| .__|_| |_|_| |_\__, | / / / /
+) =========|_|==============|___/=/_/_/_/
++ :: Spring Boot ::                (v3.2.1)
+
+é15:43:45.132 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Starting CalculatorSteps using Java 17.0.17 with PID 21953 (started by Chandan in /Users/Chandan/Documents/Personal Documents/Tech Practice/spring-cucumber-gradle)
+t15:43:45.132 DEBUG [Test worker] c.e.demo.stepdefs.CalculatorSteps - Running with Spring Boot v3.2.1, Spring v6.1.2
+‰15:43:45.132 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - No active profile set, falling back to 1 default profile: "default"
+‰15:43:45.283 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Started CalculatorSteps in 0.21 seconds (process running for 0.767)
+
+dScenario Outline: Add numbers with different combinations [90m# features/calculator.feature:12[0m
+`15:43:45.662 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Initializing calculator...
+—  [32mGiven [0m[32mI have a calculator[0m                               [90m# com.example.demo.stepdefs.CalculatorSteps.i_have_a_calculator()[0m
+T15:43:45.682 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Adding 5 and 7
+»  [32mWhen [0m[32mI add [0m[32m[1m5[0m[32m and [0m[32m[1m7[0m                                      [90m# com.example.demo.stepdefs.CalculatorSteps.i_add_numbers(int,int)[0m
+b15:43:45.683 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Checking expected result: 12
+_15:43:45.684 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Test passed successfully!
+¨  [32mThen [0m[32mthe result should be [0m[32m[1m12[0m                            [90m# com.example.demo.stepdefs.CalculatorSteps.the_result_should_be(int)[0m
+®15:43:45.689 INFO  [Test worker] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.stepdefs.CalculatorSteps]: CalculatorSteps does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+È15:43:45.690 INFO  [Test worker] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.stepdefs.CalculatorSteps
+
+dScenario Outline: Add numbers with different combinations [90m# features/calculator.feature:13[0m
+`15:43:45.692 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Initializing calculator...
+—  [32mGiven [0m[32mI have a calculator[0m                               [90m# com.example.demo.stepdefs.CalculatorSteps.i_have_a_calculator()[0m
+U15:43:45.693 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Adding 0 and 10
+»  [32mWhen [0m[32mI add [0m[32m[1m0[0m[32m and [0m[32m[1m10[0m                                     [90m# com.example.demo.stepdefs.CalculatorSteps.i_add_numbers(int,int)[0m
+b15:43:45.693 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Checking expected result: 10
+_15:43:45.693 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Test passed successfully!
+¨  [32mThen [0m[32mthe result should be [0m[32m[1m10[0m                            [90m# com.example.demo.stepdefs.CalculatorSteps.the_result_should_be(int)[0m
+®15:43:45.695 INFO  [Test worker] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.stepdefs.CalculatorSteps]: CalculatorSteps does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+È15:43:45.695 INFO  [Test worker] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.stepdefs.CalculatorSteps
+
+dScenario Outline: Add numbers with different combinations [90m# features/calculator.feature:14[0m
+`15:43:45.697 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Initializing calculator...
+—  [32mGiven [0m[32mI have a calculator[0m                               [90m# com.example.demo.stepdefs.CalculatorSteps.i_have_a_calculator()[0m
+T15:43:45.697 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Adding 0 and 0
+»  [32mWhen [0m[32mI add [0m[32m[1m0[0m[32m and [0m[32m[1m0[0m                                      [90m# com.example.demo.stepdefs.CalculatorSteps.i_add_numbers(int,int)[0m
+a15:43:45.697 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Checking expected result: 0
+_15:43:45.697 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Test passed successfully!
+¨  [32mThen [0m[32mthe result should be [0m[32m[1m0[0m                             [90m# com.example.demo.stepdefs.CalculatorSteps.the_result_should_be(int)[0m
+®15:43:45.699 INFO  [Test worker] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.stepdefs.CalculatorSteps]: CalculatorSteps does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+È15:43:45.699 INFO  [Test worker] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.stepdefs.CalculatorSteps
+
+dScenario Outline: Add numbers with different combinations [90m# features/calculator.feature:15[0m
+`15:43:45.701 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Initializing calculator...
+—  [32mGiven [0m[32mI have a calculator[0m                               [90m# com.example.demo.stepdefs.CalculatorSteps.i_have_a_calculator()[0m
+V15:43:45.701 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Adding -4 and -6
+»  [32mWhen [0m[32mI add [0m[32m[1m-4[0m[32m and [0m[32m[1m-6[0m                                    [90m# com.example.demo.stepdefs.CalculatorSteps.i_add_numbers(int,int)[0m
+c15:43:45.701 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Checking expected result: -10
+_15:43:45.701 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Test passed successfully!
+¨  [32mThen [0m[32mthe result should be [0m[32m[1m-10[0m                           [90m# com.example.demo.stepdefs.CalculatorSteps.the_result_should_be(int)[0m
+®15:43:45.702 INFO  [Test worker] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.stepdefs.CalculatorSteps]: CalculatorSteps does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+È15:43:45.703 INFO  [Test worker] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.stepdefs.CalculatorSteps
+
+dScenario Outline: Add numbers with different combinations [90m# features/calculator.feature:16[0m
+`15:43:45.705 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Initializing calculator...
+—  [32mGiven [0m[32mI have a calculator[0m                               [90m# com.example.demo.stepdefs.CalculatorSteps.i_have_a_calculator()[0m
+V15:43:45.705 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Adding 15 and -4
+»  [32mWhen [0m[32mI add [0m[32m[1m15[0m[32m and [0m[32m[1m-4[0m                                    [90m# com.example.demo.stepdefs.CalculatorSteps.i_add_numbers(int,int)[0m
+b15:43:45.705 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Checking expected result: 11
+_15:43:45.705 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Test passed successfully!
+¨  [32mThen [0m[32mthe result should be [0m[32m[1m11[0m                            [90m# com.example.demo.stepdefs.CalculatorSteps.the_result_should_be(int)[0m
+®15:43:45.706 INFO  [Test worker] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.stepdefs.CalculatorSteps]: CalculatorSteps does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+È15:43:45.707 INFO  [Test worker] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.stepdefs.CalculatorSteps
+
+dScenario Outline: Add numbers with different combinations [90m# features/calculator.feature:17[0m
+`15:43:45.709 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Initializing calculator...
+—  [32mGiven [0m[32mI have a calculator[0m                               [90m# com.example.demo.stepdefs.CalculatorSteps.i_have_a_calculator()[0m
+W15:43:45.710 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Adding 1 and 9999
+»  [32mWhen [0m[32mI add [0m[32m[1m1[0m[32m and [0m[32m[1m9999[0m                                   [90m# com.example.demo.stepdefs.CalculatorSteps.i_add_numbers(int,int)[0m
+e15:43:45.710 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Checking expected result: 10000
+_15:43:45.710 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Test passed successfully!
+¨  [32mThen [0m[32mthe result should be [0m[32m[1m10000[0m                         [90m# com.example.demo.stepdefs.CalculatorSteps.the_result_should_be(int)[0m
+®15:43:45.711 INFO  [Test worker] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.stepdefs.CalculatorSteps]: CalculatorSteps does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+È15:43:45.711 INFO  [Test worker] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.stepdefs.CalculatorSteps
+
+dScenario Outline: Add numbers with different combinations [90m# features/calculator.feature:18[0m
+`15:43:45.713 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Initializing calculator...
+—  [32mGiven [0m[32mI have a calculator[0m                               [90m# com.example.demo.stepdefs.CalculatorSteps.i_have_a_calculator()[0m
+\15:43:45.713 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Adding 10000 and 25000
+»  [32mWhen [0m[32mI add [0m[32m[1m10000[0m[32m and [0m[32m[1m25000[0m                              [90m# com.example.demo.stepdefs.CalculatorSteps.i_add_numbers(int,int)[0m
+e15:43:45.713 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Checking expected result: 35000
+_15:43:45.713 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Test passed successfully!
+¨  [32mThen [0m[32mthe result should be [0m[32m[1m35000[0m                         [90m# com.example.demo.stepdefs.CalculatorSteps.the_result_should_be(int)[0m
+	®15:43:45.715 INFO  [Test worker] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.stepdefs.CalculatorSteps]: CalculatorSteps does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+	È15:43:45.715 INFO  [Test worker] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.stepdefs.CalculatorSteps
+	
+	dScenario Outline: Add numbers with different combinations [90m# features/calculator.feature:19[0m
+	`15:43:45.717 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Initializing calculator...
+	—  [32mGiven [0m[32mI have a calculator[0m                               [90m# com.example.demo.stepdefs.CalculatorSteps.i_have_a_calculator()[0m
+	T15:43:45.717 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Adding 3 and 3
+	»  [32mWhen [0m[32mI add [0m[32m[1m3[0m[32m and [0m[32m[1m3[0m                                      [90m# com.example.demo.stepdefs.CalculatorSteps.i_add_numbers(int,int)[0m
+	a15:43:45.717 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Checking expected result: 6
+	_15:43:45.717 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Test passed successfully!
+	¨  [32mThen [0m[32mthe result should be [0m[32m[1m6[0m                             [90m# com.example.demo.stepdefs.CalculatorSteps.the_result_should_be(int)[0m
+
+®15:43:45.718 INFO  [Test worker] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.stepdefs.CalculatorSteps]: CalculatorSteps does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+
+È15:43:45.718 INFO  [Test worker] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.stepdefs.CalculatorSteps
+
+
+
+dScenario Outline: Add numbers with different combinations [90m# features/calculator.feature:20[0m
+
+`15:43:45.720 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Initializing calculator...
+
+—  [32mGiven [0m[32mI have a calculator[0m                               [90m# com.example.demo.stepdefs.CalculatorSteps.i_have_a_calculator()[0m
+
+V15:43:45.720 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Adding -10 and 3
+
+»  [32mWhen [0m[32mI add [0m[32m[1m-10[0m[32m and [0m[32m[1m3[0m                                    [90m# com.example.demo.stepdefs.CalculatorSteps.i_add_numbers(int,int)[0m
+
+b15:43:45.720 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Checking expected result: -7
+
+_15:43:45.720 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Test passed successfully!
+
+¨  [32mThen [0m[32mthe result should be [0m[32m[1m-7[0m                            [90m# com.example.demo.stepdefs.CalculatorSteps.the_result_should_be(int)[0m
+®15:43:45.748 INFO  [Test worker] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.stepdefs.CalculatorSteps]: CalculatorSteps does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+È15:43:45.748 INFO  [Test worker] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.stepdefs.CalculatorSteps
+
+dScenario Outline: Add numbers with different combinations [90m# features/calculator.feature:12[0m
+`15:43:45.751 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Initializing calculator...
+—  [32mGiven [0m[32mI have a calculator[0m                               [90m# com.example.demo.stepdefs.CalculatorSteps.i_have_a_calculator()[0m
+T15:43:45.751 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Adding 5 and 7
+»  [32mWhen [0m[32mI add [0m[32m[1m5[0m[32m and [0m[32m[1m7[0m                                      [90m# com.example.demo.stepdefs.CalculatorSteps.i_add_numbers(int,int)[0m
+b15:43:45.751 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Checking expected result: 12
+_15:43:45.751 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Test passed successfully!
+¨  [32mThen [0m[32mthe result should be [0m[32m[1m12[0m                            [90m# com.example.demo.stepdefs.CalculatorSteps.the_result_should_be(int)[0m
+®15:43:45.753 INFO  [Test worker] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.stepdefs.CalculatorSteps]: CalculatorSteps does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+È15:43:45.753 INFO  [Test worker] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.stepdefs.CalculatorSteps
+
+dScenario Outline: Add numbers with different combinations [90m# features/calculator.feature:13[0m
+`15:43:45.755 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Initializing calculator...
+—  [32mGiven [0m[32mI have a calculator[0m                               [90m# com.example.demo.stepdefs.CalculatorSteps.i_have_a_calculator()[0m
+U15:43:45.755 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Adding 0 and 10
+»  [32mWhen [0m[32mI add [0m[32m[1m0[0m[32m and [0m[32m[1m10[0m                                     [90m# com.example.demo.stepdefs.CalculatorSteps.i_add_numbers(int,int)[0m
+b15:43:45.755 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Checking expected result: 10
+_15:43:45.755 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Test passed successfully!
+¨  [32mThen [0m[32mthe result should be [0m[32m[1m10[0m                            [90m# com.example.demo.stepdefs.CalculatorSteps.the_result_should_be(int)[0m
+®15:43:45.756 INFO  [Test worker] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.stepdefs.CalculatorSteps]: CalculatorSteps does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+È15:43:45.756 INFO  [Test worker] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.stepdefs.CalculatorSteps
+
+dScenario Outline: Add numbers with different combinations [90m# features/calculator.feature:14[0m
+`15:43:45.758 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Initializing calculator...
+—  [32mGiven [0m[32mI have a calculator[0m                               [90m# com.example.demo.stepdefs.CalculatorSteps.i_have_a_calculator()[0m
+T15:43:45.758 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Adding 0 and 0
+»  [32mWhen [0m[32mI add [0m[32m[1m0[0m[32m and [0m[32m[1m0[0m                                      [90m# com.example.demo.stepdefs.CalculatorSteps.i_add_numbers(int,int)[0m
+a15:43:45.758 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Checking expected result: 0
+_15:43:45.758 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Test passed successfully!
+¨  [32mThen [0m[32mthe result should be [0m[32m[1m0[0m                             [90m# com.example.demo.stepdefs.CalculatorSteps.the_result_should_be(int)[0m
+®15:43:45.759 INFO  [Test worker] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.stepdefs.CalculatorSteps]: CalculatorSteps does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+È15:43:45.759 INFO  [Test worker] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.stepdefs.CalculatorSteps
+
+dScenario Outline: Add numbers with different combinations [90m# features/calculator.feature:15[0m
+`15:43:45.761 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Initializing calculator...
+—  [32mGiven [0m[32mI have a calculator[0m                               [90m# com.example.demo.stepdefs.CalculatorSteps.i_have_a_calculator()[0m
+V15:43:45.761 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Adding -4 and -6
+»  [32mWhen [0m[32mI add [0m[32m[1m-4[0m[32m and [0m[32m[1m-6[0m                                    [90m# com.example.demo.stepdefs.CalculatorSteps.i_add_numbers(int,int)[0m
+c15:43:45.761 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Checking expected result: -10
+_15:43:45.761 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Test passed successfully!
+¨  [32mThen [0m[32mthe result should be [0m[32m[1m-10[0m                           [90m# com.example.demo.stepdefs.CalculatorSteps.the_result_should_be(int)[0m
+®15:43:45.762 INFO  [Test worker] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.stepdefs.CalculatorSteps]: CalculatorSteps does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+È15:43:45.762 INFO  [Test worker] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.stepdefs.CalculatorSteps
+
+dScenario Outline: Add numbers with different combinations [90m# features/calculator.feature:16[0m
+`15:43:45.764 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Initializing calculator...
+—  [32mGiven [0m[32mI have a calculator[0m                               [90m# com.example.demo.stepdefs.CalculatorSteps.i_have_a_calculator()[0m
+V15:43:45.764 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Adding 15 and -4
+»  [32mWhen [0m[32mI add [0m[32m[1m15[0m[32m and [0m[32m[1m-4[0m                                    [90m# com.example.demo.stepdefs.CalculatorSteps.i_add_numbers(int,int)[0m
+b15:43:45.764 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Checking expected result: 11
+_15:43:45.764 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Test passed successfully!
+¨  [32mThen [0m[32mthe result should be [0m[32m[1m11[0m                            [90m# com.example.demo.stepdefs.CalculatorSteps.the_result_should_be(int)[0m
+®15:43:45.765 INFO  [Test worker] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.stepdefs.CalculatorSteps]: CalculatorSteps does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+È15:43:45.765 INFO  [Test worker] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.stepdefs.CalculatorSteps
+
+dScenario Outline: Add numbers with different combinations [90m# features/calculator.feature:17[0m
+`15:43:45.767 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Initializing calculator...
+—  [32mGiven [0m[32mI have a calculator[0m                               [90m# com.example.demo.stepdefs.CalculatorSteps.i_have_a_calculator()[0m
+W15:43:45.767 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Adding 1 and 9999
+»  [32mWhen [0m[32mI add [0m[32m[1m1[0m[32m and [0m[32m[1m9999[0m                                   [90m# com.example.demo.stepdefs.CalculatorSteps.i_add_numbers(int,int)[0m
+e15:43:45.767 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Checking expected result: 10000
+_15:43:45.767 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Test passed successfully!
+¨  [32mThen [0m[32mthe result should be [0m[32m[1m10000[0m                         [90m# com.example.demo.stepdefs.CalculatorSteps.the_result_should_be(int)[0m
+®15:43:45.768 INFO  [Test worker] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.stepdefs.CalculatorSteps]: CalculatorSteps does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+È15:43:45.769 INFO  [Test worker] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.stepdefs.CalculatorSteps
+
+dScenario Outline: Add numbers with different combinations [90m# features/calculator.feature:18[0m
+`15:43:45.772 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Initializing calculator...
+—  [32mGiven [0m[32mI have a calculator[0m                               [90m# com.example.demo.stepdefs.CalculatorSteps.i_have_a_calculator()[0m
+\15:43:45.772 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Adding 10000 and 25000
+»  [32mWhen [0m[32mI add [0m[32m[1m10000[0m[32m and [0m[32m[1m25000[0m                              [90m# com.example.demo.stepdefs.CalculatorSteps.i_add_numbers(int,int)[0m
+e15:43:45.773 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Checking expected result: 35000
+_15:43:45.773 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Test passed successfully!
+¨  [32mThen [0m[32mthe result should be [0m[32m[1m35000[0m                         [90m# com.example.demo.stepdefs.CalculatorSteps.the_result_should_be(int)[0m
+®15:43:45.774 INFO  [Test worker] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.stepdefs.CalculatorSteps]: CalculatorSteps does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+È15:43:45.774 INFO  [Test worker] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.stepdefs.CalculatorSteps
+
+dScenario Outline: Add numbers with different combinations [90m# features/calculator.feature:19[0m
+`15:43:45.775 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Initializing calculator...
+—  [32mGiven [0m[32mI have a calculator[0m                               [90m# com.example.demo.stepdefs.CalculatorSteps.i_have_a_calculator()[0m
+T15:43:45.776 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Adding 3 and 3
+»  [32mWhen [0m[32mI add [0m[32m[1m3[0m[32m and [0m[32m[1m3[0m                                      [90m# com.example.demo.stepdefs.CalculatorSteps.i_add_numbers(int,int)[0m
+a15:43:45.776 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Checking expected result: 6
+_15:43:45.776 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Test passed successfully!
+¨  [32mThen [0m[32mthe result should be [0m[32m[1m6[0m                             [90m# com.example.demo.stepdefs.CalculatorSteps.the_result_should_be(int)[0m
+®15:43:45.777 INFO  [Test worker] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.stepdefs.CalculatorSteps]: CalculatorSteps does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+È15:43:45.777 INFO  [Test worker] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.stepdefs.CalculatorSteps
+
+dScenario Outline: Add numbers with different combinations [90m# features/calculator.feature:20[0m
+`15:43:45.778 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Initializing calculator...
+—  [32mGiven [0m[32mI have a calculator[0m                               [90m# com.example.demo.stepdefs.CalculatorSteps.i_have_a_calculator()[0m
+V15:43:45.778 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Adding -10 and 3
+»  [32mWhen [0m[32mI add [0m[32m[1m-10[0m[32m and [0m[32m[1m3[0m                                    [90m# com.example.demo.stepdefs.CalculatorSteps.i_add_numbers(int,int)[0m
+b15:43:45.778 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Checking expected result: -7
+_15:43:45.778 INFO  [Test worker] c.e.demo.stepdefs.CalculatorSteps - Test passed successfully!
+¨  [32mThen [0m[32mthe result should be [0m[32m[1m-7[0m                            [90m# com.example.demo.stepdefs.CalculatorSteps.the_result_should_be(int)[0m

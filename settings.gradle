@@ -1,0 +1,5 @@
+rootProject.name = 'spring-cucumber-gradle'
+buildCache {
+    local { enabled = true }
+}
+
