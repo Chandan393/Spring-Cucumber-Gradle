@@ -1,1 +1,1 @@
-Spring Cucumber Gradle Project Example1
+Spring Cucumber Gradle Project Example2
